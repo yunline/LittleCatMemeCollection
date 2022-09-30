@@ -11,6 +11,12 @@
         "license": "",
         "description": "8-Bit猫猫！"
     },
+    "我是大猫": {
+        "img": "我是大猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "大号猫猫~"
+    },
     "我是小猫": {
         "img": "我是小猫.jpg",
         "auther": "",
@@ -34,11 +40,5 @@
         "auther": "云line",
         "license": "",
         "description": "遨游于宇宙的大猫猫！"
-    },
-    "我是错误小猫": {
-        "img": "模板小猫.png",
-        "auther": "创作者（未知作者，则键值为空字符串）",
-        "license": "作品的版权协议（没有协议，则键值为空字符串）",
-        "description": "介绍内容"
     }
 }

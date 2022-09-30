@@ -1,0 +1,44 @@
+{
+    ".我是模板小猫": {
+        "img": "模板小猫.png",
+        "auther": "创作者（未知作者，则键值为空字符串）",
+        "license": "作品的版权协议名称（只写名称，不写全文。没有协议，则键值为空字符串）",
+        "description": "介绍内容（最大字符数100）"
+    },
+    "我是像素猫猫": {
+        "img": "像素猫猫.png",
+        "auther": "云line",
+        "license": "",
+        "description": "8-Bit猫猫！"
+    },
+    "我是小猫": {
+        "img": "我是小猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "原味猫猫，广泛流传于互联网"
+    },
+    "我是小猫（高清）": {
+        "img": "我是小猫.png",
+        "auther": "云line",
+        "license": "",
+        "description": "原味猫猫，高清无码（矢量化猫猫制作中）"
+    },
+    "我是超级大猫": {
+        "img": "我是超级大猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "XXXXXL猫猫！"
+    },
+    "我是超级猫猫": {
+        "img": "我是超级猫猫.jpg",
+        "auther": "云line",
+        "license": "",
+        "description": "遨游于宇宙的大猫猫！"
+    },
+    "我是错误小猫": {
+        "img": "模板小猫.png",
+        "auther": "创作者（未知作者，则键值为空字符串）",
+        "license": "作品的版权协议（没有协议，则键值为空字符串）",
+        "description": "介绍内容"
+    }
+}

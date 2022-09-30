@@ -67,7 +67,7 @@ except Exception as err:
 else:
     logging.info("There are %d images in total."%len(index))
     logging.info("Writing \"index.json\" ···")
-    with open("index.json","w",encoding="utf8") as index_file:
+    with open("小猫/index.json","w",encoding="utf8") as index_file:
         json.dump(index,index_file,ensure_ascii=False,indent=4)
     logging.info("Index updated successfully. ")
 finally:

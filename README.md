@@ -1,4 +1,7 @@
 # 我是小猫
+
+[点我欣赏本仓库收藏的所有梗图](https://yunline.github.io/LittleCatMemeCollection/)  
+
 本仓库收集`“我是小猫”`表情包相关的梗图。  
 
 <img src=小猫/我是小猫/我是小猫.jpg width=40%>
@@ -17,7 +20,7 @@
 │   小猫2/
 │   ···
 │
-└─  .我是模板小猫/      #文件夹的名字即是梗图的名字
+└─  .我是模板小猫/  #文件夹的名字即是梗图的名字
     │  info.json    #梗图信息 info.json (编码：UTF-8)
     └─ 模板小猫.png #梗图本体
 ```
@@ -32,4 +35,4 @@
 }
 ```
 
-贡献完成之后，请运行[update_index.py](update_index.py)，脚本会自动检查格式是否正确，然后自动更新[目录文件](index.json)。
+贡献完成之后，请运行[update_index.py](update_index.py)，脚本会自动检查格式是否正确，然后自动更新[目录文件](小猫/index.json)。

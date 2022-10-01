@@ -60,6 +60,7 @@ function spawn_particle(event) {//生成粒子
 
 function on_ready() {//加载完成时调用
     set_column_count();
+    jQuery.ajaxSetup ({cache:false})
     $(window).resize(set_column_count);
     $.get("../小猫/index.json", load_cat);
 

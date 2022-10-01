@@ -5,11 +5,29 @@
         "license": "作品的版权协议名称（只写名称，不写全文。没有协议，则键值为空字符串）",
         "description": "介绍内容（最大字符数100）"
     },
+    "我是中猫": {
+        "img": "我是中猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "不大不小的猫猫（？"
+    },
+    "我是丽华猫猫": {
+        "img": "丽华猫猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "音游猫猫~"
+    },
     "我是像素小猫": {
         "img": "像素小猫.png",
         "auther": "云line",
         "license": "",
         "description": "来自8-Bit世界的小猫！"
+    },
+    "我是基拟态猫": {
+        "img": "我是鸡猫.jpg",
+        "auther": "云line",
+        "license": "",
+        "description": "练习时长两年半的小猫"
     },
     "我是大猫": {
         "img": "我是大猫.jpg",
@@ -52,5 +70,11 @@
         "auther": "",
         "license": "",
         "description": "我是8K蓝光超清画质小猫"
+    },
+    "我是龙猫": {
+        "img": "龙猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "我是龙猫"
     }
 }

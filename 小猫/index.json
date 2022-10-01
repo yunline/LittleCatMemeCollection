@@ -5,11 +5,11 @@
         "license": "作品的版权协议名称（只写名称，不写全文。没有协议，则键值为空字符串）",
         "description": "介绍内容（最大字符数100）"
     },
-    "我是像素猫猫": {
-        "img": "像素猫猫.png",
+    "我是像素小猫": {
+        "img": "像素小猫.png",
         "auther": "云line",
         "license": "",
-        "description": "8-Bit猫猫！"
+        "description": "来自8-Bit世界的小猫！"
     },
     "我是大猫": {
         "img": "我是大猫.jpg",

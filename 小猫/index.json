@@ -29,6 +29,12 @@
         "license": "",
         "description": "原味猫猫，高清无码（矢量化猫猫制作中）"
     },
+    "我是猫猫": {
+        "img": "我是猫猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "猫猫贴贴~！"
+    },
     "我是超级大猫": {
         "img": "我是超级大猫.jpg",
         "auther": "",
@@ -40,5 +46,11 @@
         "auther": "云line",
         "license": "",
         "description": "遨游于宇宙的大猫猫！"
+    },
+    "我是高保真小猫": {
+        "img": "高保真小猫.jpg",
+        "auther": "",
+        "license": "",
+        "description": "我是8K蓝光超清画质小猫"
     }
 }

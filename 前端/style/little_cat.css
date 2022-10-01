@@ -1,0 +1,22 @@
+.cat_img{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.cat_div{
+    height: 20em;
+    border-style: double;
+    text-align:left;
+    overflow: hidden;
+}
+.cat_text{
+    text-align: left;
+    position: relative;
+    left: 1em;
+    padding: 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+}

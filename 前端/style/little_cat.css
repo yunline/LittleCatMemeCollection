@@ -1,25 +1,44 @@
+.cat_link{
+    transition: 0.2s;
+}
+.cat_link:hover{
+    cursor: pointer;
+    text-shadow: 0 0 0.2em #ccc;
+    text-decoration: underline;
+    color: #444;
+}
+
 .cat_img{
     position: relative;
     float: left;
     width: 50%;
 }
+
 .cat_div{
     height: 20em;
     border-style: double;
     text-align:left;
     overflow: hidden;
     margin: 0 0 1em 1em;/*控制每格之间的间隙*/
+    transition: 0.2s;
 }
+.cat_div:hover{
+    box-shadow: 0 0 0.5em 0.2em #aaa;
+}
+
 .cat_text{
     text-align: left;
     position: relative;
     left: 1em;
     padding: 1em;
 }
+
 #cat_area{
+    z-index: 0;
     column-gap:0em;/*消除列间隙，间隙由margin控制*/
 }
-h1{
-    text-align: center;
-    font-size: 5em;
+
+.particle{
+    width: 50px;
+    position: fixed;
 }

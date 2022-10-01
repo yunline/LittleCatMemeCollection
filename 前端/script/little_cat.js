@@ -50,7 +50,7 @@ function spawn_particle(event) {//生成粒子
         $(`#${id}`).animate({
             top: `+=${distY}px`,
             left: `+=${dixtX}px`,
-            
+            opacity:0
         }, {
             duration: (Math.random() / 2 + 1) * 2000,
             queue: false

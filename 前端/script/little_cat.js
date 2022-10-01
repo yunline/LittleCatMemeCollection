@@ -1,8 +1,7 @@
-function set_column_count(){
+function set_column_count(){//按照分辨率调整列数
     $("#cat_area").attr(
         "style",
-        `column-count:${Math.ceil(document.body.clientWidth/800)};
-        column-gap:1em;`
+        `column-count:${Math.ceil(document.body.clientWidth/800)};`
         );
 }
 

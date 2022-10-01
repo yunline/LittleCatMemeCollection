@@ -8,6 +8,7 @@
     border-style: double;
     text-align:left;
     overflow: hidden;
+    margin: 0 0 1em 1em;/*控制每格之间的间隙*/
 }
 .cat_text{
     text-align: left;
@@ -15,7 +16,9 @@
     left: 1em;
     padding: 1em;
 }
-
+#cat_area{
+    column-gap:0em;/*消除列间隙，间隙由margin控制*/
+}
 h1{
     text-align: center;
     font-size: 5em;

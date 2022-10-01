@@ -10,7 +10,12 @@
 
 .cat_img{
     position: relative;
+    width: 100%;
+}
+
+.cat_img_box{
     float: left;
+    height: 100%;
     width: 50%;
 }
 
@@ -36,6 +41,7 @@
 #cat_area{
     z-index: 0;
     column-gap:0em;/*消除列间隙，间隙由margin控制*/
+    margin-right: 1em;/*右边空1em，保证居中*/
 }
 
 .particle{

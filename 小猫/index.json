@@ -23,17 +23,17 @@
         "license": "",
         "description": "原味猫猫，广泛流传于互联网"
     },
-    "我是小猫（高清）": {
-        "img": "我是小猫.png",
-        "auther": "云line",
-        "license": "",
-        "description": "原味猫猫，高清无码（矢量化猫猫制作中）"
-    },
     "我是猫猫": {
         "img": "我是猫猫.jpg",
         "auther": "",
         "license": "",
         "description": "猫猫贴贴~！"
+    },
+    "我是矢量小猫": {
+        "img": "矢量小猫.svg",
+        "auther": "云line",
+        "license": "",
+        "description": "放大放大再放大，妈妈再也不用担心我的猫猫糊成一团啦~"
     },
     "我是超级大猫": {
         "img": "我是超级大猫.jpg",

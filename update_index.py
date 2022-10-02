@@ -68,8 +68,20 @@ except Exception as err:
         logging.error("%s: %s"%(type(err).__name__,err))
 else:
     logging.info("There are %d images in total."%len(index))
+
+    with open("模板/template_cat_count.svg","r",encoding="utf8") as template_f:
+        #读取svg模板
+        template=template_f.read()
+    
+    logging.info("Writing \"cat_count.svg\" ···")
+
+    with open("数据/cat_count.svg","w",encoding="utf8") as cat_count_f:
+        #写入cat_count.svg
+        cat_count_f.write(template.replace("{|CAT_COUNT|}",str(len(index))))
+
     logging.info("Writing \"index.json\" ···")
     with open("数据/index.json","w",encoding="utf8") as index_file:
+        # 写入index.json
         json.dump(index,index_file,ensure_ascii=False,indent=4)
     logging.info("Index updated successfully. ")
 finally:

@@ -12,9 +12,6 @@ function load_cat(data, status) {//加载猫猫
     }
 
     for (cat in data) {
-        if (cat[0] == ".") {
-            continue; //忽略".模板小猫"
-        }
         var cat_img_path = `../小猫/${cat}/${data[cat]["img"]}`;
 
         var _html = `

@@ -35,4 +35,4 @@
 }
 ```
 
-贡献完成之后，请运行[update_index.py](update_index.py)，脚本会自动检查格式是否正确，然后自动更新[目录文件](小猫/index.json)。
+贡献完成之后，请运行[update_index.py](update_index.py)，脚本会自动检查格式是否正确，然后自动更新[目录文件](数据/index.json)。

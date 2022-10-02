@@ -62,7 +62,7 @@ function on_ready() {//加载完成时调用
     set_column_count();
     jQuery.ajaxSetup ({cache:false})
     $(window).resize(set_column_count);
-    $.get("../小猫/index.json", load_cat);
+    $.get("../数据/index.json", load_cat);
 
     $("body").click(spawn_particle);
 }

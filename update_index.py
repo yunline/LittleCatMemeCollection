@@ -11,10 +11,10 @@ logging.basicConfig(force=True,level=logging.DEBUG, format='[%(levelname)s] %(me
 def get_index():
     index={}
 
-    for _path in os.listdir("小猫"):
+    for _path in os.listdir("cats"):
         #遍历“小猫”文件夹，检查错误，获取目录。
 
-        path=os.path.join("小猫",_path)
+        path=os.path.join("cats",_path)
 
         if not os.path.isdir(path):
             #跳过非文件夹的路径
@@ -69,18 +69,18 @@ except Exception as err:
 else:
     logging.info("There are %d images in total."%len(index))
 
-    with open("模板/template_cat_count.svg","r",encoding="utf8") as template_f:
+    with open("templates/template_cat_count.svg","r",encoding="utf8") as template_f:
         #读取svg模板
         template=template_f.read()
     
     logging.info("Writing \"cat_count.svg\" ···")
 
-    with open("数据/cat_count.svg","w",encoding="utf8") as cat_count_f:
+    with open("data/cat_count.svg","w",encoding="utf8") as cat_count_f:
         #写入cat_count.svg
         cat_count_f.write(template.replace("{|CAT_COUNT|}",str(len(index))))
 
     logging.info("Writing \"index.json\" ···")
-    with open("数据/index.json","w",encoding="utf8") as index_file:
+    with open("data/index.json","w",encoding="utf8") as index_file:
         # 写入index.json
         json.dump(index,index_file,ensure_ascii=False,indent=4)
     logging.info("Index updated successfully. ")

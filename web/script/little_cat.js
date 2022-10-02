@@ -12,7 +12,7 @@ function load_cat(data, status) {//加载猫猫
     }
 
     for (cat in data) {
-        var cat_img_path = `../小猫/${cat}/${data[cat]["img"]}`;
+        var cat_img_path = `../cats/${cat}/${data[cat]["img"]}`;
 
         var _html = `
         <div class="cat_div">
@@ -59,7 +59,7 @@ function on_ready() {//加载完成时调用
     set_column_count();
     jQuery.ajaxSetup ({cache:false})
     $(window).resize(set_column_count);
-    $.get("../数据/index.json", load_cat);
+    $.get("../data/index.json", load_cat);
 
     $("body").click(spawn_particle);
 }

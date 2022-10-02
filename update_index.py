@@ -34,7 +34,7 @@ def get_index():
             #格式不对，不是dict，报错
             raise Exception("Wrong format of \"info.json\". See ./README.md .")
 
-        for key in ["auther","img","license","description"]:
+        for key in ["author","img","license","description"]:
             if not key in info:
                 #缺少键，报错
                 raise KeyError("Key \"%s\" not found in \"info.json\"."%key)

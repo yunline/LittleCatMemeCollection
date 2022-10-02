@@ -22,7 +22,7 @@ function load_cat(data, status) {//加载猫猫
             <div class="cat_img_box"><img src="${cat_img_path}" class="cat_img"></div>
             <div class="cat_text">
                 <h2 class="cat_link">${cat}</h2>
-                <p>作者：${data[cat]["auther"] == "" ? "未知" : data[cat]["auther"]}</p>
+                <p>作者：${data[cat]["author"] == "" ? "未知" : data[cat]["author"]}</p>
                 <p>简介：${data[cat]["description"]}</p>
             </div>
         </div>

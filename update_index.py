@@ -12,6 +12,8 @@ def get_index():
     index={}
 
     for _path in os.listdir("小猫"):
+        #遍历“小猫”文件夹，检查错误，获取目录。
+
         path=os.path.join("小猫",_path)
 
         if not os.path.isdir(path):

@@ -53,6 +53,18 @@
         "license": "",
         "description": "原味猫猫，广泛流传于互联网"
     },
+    "我是很难看清的小猫": {
+        "img": "近视小猫.jpg",
+        "author": "云line",
+        "license": "",
+        "description": "脱掉眼镜也看不见哒~"
+    },
+    "我是炼丹小猫": {
+        "img": "手推车.jpg",
+        "author": "云line",
+        "license": "",
+        "description": "高可靠制造保证~"
+    },
     "我是狐萝卜": {
         "img": "fu萝卜.jpg",
         "author": "",
@@ -82,6 +94,12 @@
         "author": "云line",
         "license": "",
         "description": "遨游于宇宙的大猫猫！"
+    },
+    "我是道理小猫": {
+        "img": "我是道理小猫.jpg",
+        "author": "云line",
+        "license": "",
+        "description": "说个道理~~~"
     },
     "我是高保真小猫": {
         "img": "高保真小猫.jpg",

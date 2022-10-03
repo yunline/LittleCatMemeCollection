@@ -118,5 +118,17 @@
         "author": "",
         "license": "",
         "description": "我是龙猫"
+    },
+    "没生气哦": {
+        "img": "没生气哦.jpg",
+        "author": "云line",
+        "license": "",
+        "description": "pipi小猫~"
+    },
+    "生气了吗": {
+        "img": "生气了吗.jpg",
+        "author": "云line",
+        "license": "",
+        "description": "pop小猫~"
     }
 }

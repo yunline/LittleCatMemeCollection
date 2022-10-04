@@ -77,6 +77,12 @@
         "license": "",
         "description": "猫猫贴贴~！"
     },
+    "我是电猫": {
+        "img": "大电.gif",
+        "author": "云line",
+        "license": "",
+        "description": "小猫猫拉大电~"
+    },
     "我是矢量小猫": {
         "img": "矢量小猫.svg",
         "author": "云line",

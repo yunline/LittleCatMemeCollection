@@ -1,146 +1,26 @@
-{
-    "不学啦": {
-        "img": "不学啦.jpg",
-        "author": "Malachite",
-        "license": "",
-        "description": "开摆猫猫~"
-    },
-    "我是中猫": {
-        "img": "我是中猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "不大不小的猫猫（？"
-    },
-    "我是丽华猫猫": {
-        "img": "丽华猫猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "音游猫猫~"
-    },
-    "我是像素小猫": {
-        "img": "像素小猫.png",
-        "author": "云line",
-        "license": "",
-        "description": "来自8-Bit世界的小猫！"
-    },
-    "我是削除射线": {
-        "img": "削除射线.jpg",
-        "author": "Malachite",
-        "license": "",
-        "description": "Destr猫猫yer"
-    },
-    "我是前置尾巴小猫": {
-        "img": "前置.jpg",
-        "author": "Malachite",
-        "license": "",
-        "description": "前置灵动尾巴，好怪哦~"
-    },
-    "我是基拟态猫": {
-        "img": "我是鸡猫.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "练习时长两年半的小猫"
-    },
-    "我是大猫": {
-        "img": "我是大猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "比小猫大一点点的猫猫~"
-    },
-    "我是小猫": {
-        "img": "我是小猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "原味猫猫，广泛流传于互联网"
-    },
-    "我是很难看清的小猫": {
-        "img": "近视小猫.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "脱掉眼镜也看不见哒~"
-    },
-    "我是炼丹小猫": {
-        "img": "手推车.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "高可靠制造保证~"
-    },
-    "我是狐萝卜": {
-        "img": "fu萝卜.jpg",
-        "author": "",
-        "license": "",
-        "description": "我是狐萝卜~"
-    },
-    "我是猫猫": {
-        "img": "我是猫猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "猫猫贴贴~！"
-    },
-    "我是电猫": {
-        "img": "大电.gif",
-        "author": "云line",
-        "license": "",
-        "description": "小猫猫拉大电~"
-    },
-    "我是矢量小猫": {
-        "img": "矢量小猫.svg",
-        "author": "云line",
-        "license": "",
-        "description": "放大放大再放大，妈妈再也不用担心我的猫猫糊成一团啦~"
-    },
-    "我是福朗多": {
-        "img": "Frundles.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "\"I'm Mr Frundles.\"（出自瑞克与莫蒂6-1）"
-    },
-    "我是苏维埃小猫": {
-        "img": "小猫.png",
-        "author": "匿名投稿",
-        "license": "",
-        "description": "乌拉~"
-    },
-    "我是超级大猫": {
-        "img": "我是超级大猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "XXXXXL猫猫！"
-    },
-    "我是超级猫猫": {
-        "img": "我是超级猫猫.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "遨游于宇宙的大猫猫！"
-    },
-    "我是道理小猫": {
-        "img": "我是道理小猫.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "我说出了是小猫的道理"
-    },
-    "我是高保真小猫": {
-        "img": "高保真小猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "我是8K蓝光超清画质小猫"
-    },
-    "我是龙猫": {
-        "img": "龙猫.jpg",
-        "author": "",
-        "license": "",
-        "description": "我是龙猫"
-    },
-    "没生气哦": {
-        "img": "没生气哦.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "pipi小猫~"
-    },
-    "生气了吗": {
-        "img": "生气了吗.jpg",
-        "author": "云line",
-        "license": "",
-        "description": "pop小猫~"
-    }
-}
+[
+    "不学啦",
+    "我是中猫",
+    "我是丽华猫猫",
+    "我是像素小猫",
+    "我是削除射线",
+    "我是前置尾巴小猫",
+    "我是基拟态猫",
+    "我是大猫",
+    "我是小猫",
+    "我是很难看清的小猫",
+    "我是炼丹小猫",
+    "我是狐萝卜",
+    "我是猫猫",
+    "我是电猫",
+    "我是矢量小猫",
+    "我是福朗多",
+    "我是苏维埃小猫",
+    "我是超级大猫",
+    "我是超级猫猫",
+    "我是道理小猫",
+    "我是高保真小猫",
+    "我是龙猫",
+    "没生气哦",
+    "生气了吗"
+]

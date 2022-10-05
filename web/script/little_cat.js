@@ -5,26 +5,31 @@ function set_column_count() {//按照分辨率调整预览列数
     );
 }
 
-function load_cat(data, status) {//加载猫猫
+function load_cat(cat_index, status) {//回调，加载猫猫
     if (status != "success") {
         console.log(status);
         return;
     }
 
-    for (cat in data) {
-        var cat_img_path = `../cats/${cat}/${data[cat]["img"]}`;
+    for (i in cat_index) {
+        function callback_factory(i){//生成回调函数
+            return (function(cat_info, status) {//回调，获得小猫信息之后，写入html
+            var cat_img_path = `../cats/${cat_index[i]}/${cat_info["img"]}`;
 
-        var _html = `
-        <div class="cat_div">
-            <div class="cat_img_box"><img src="${cat_img_path}" class="cat_img"></div>
-            <div class="cat_text">
-                <h2 class="cat_link">${cat}</h2>
-                <p>作者：${data[cat]["author"] == "" ? "未知" : data[cat]["author"]}</p>
-                <p>简介：${data[cat]["description"]}</p>
+            var _html = `
+            <div class="cat_div">
+                <div class="cat_img_box"><img src="${cat_img_path}" class="cat_img"></div>
+                <div class="cat_text">
+                    <h2 class="cat_link">${cat_index[i]}</h2>
+                    <p>作者：${cat_info["author"] == "" ? "未知" : cat_info["author"]}</p>
+                    <p>简介：${cat_info["description"]}</p>
+                </div>
             </div>
-        </div>
-        `;
-        $("#cat_area").append(_html);
+            `;
+            $("#cat_area").append(_html);
+        });}
+
+        $.get(`../cats/${cat_index[i]}/info.json`, callback_factory(i))
     }
 }
 
@@ -47,7 +52,7 @@ function spawn_particle(event) {//生成粒子
         $(`#${id}`).animate({
             top: `+=${distY}px`,
             left: `+=${dixtX}px`,
-            opacity:0
+            opacity: 0
         }, {
             duration: (Math.random() / 2 + 1) * 2000,
             queue: false
@@ -57,7 +62,7 @@ function spawn_particle(event) {//生成粒子
 
 function on_ready() {//加载完成时调用
     set_column_count();
-    jQuery.ajaxSetup ({cache:false})
+    jQuery.ajaxSetup({ cache: false })
     $(window).resize(set_column_count);
     $.get("../data/index.json", load_cat);
 

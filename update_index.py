@@ -9,7 +9,7 @@ logging.basicConfig(force=True,level=logging.DEBUG, format='[%(levelname)s] %(me
 	datefmt='%Y-%d-%b %H:%M:%S')
 
 def get_index():
-    index={}
+    index=[]
 
     for _path in os.listdir("cats"):
         #遍历“小猫”文件夹，检查错误，获取目录。
@@ -55,7 +55,7 @@ def get_index():
 
         logging.info("√")
 
-        index[_path]=info#记录index
+        index.append(_path)
     
     return index
 

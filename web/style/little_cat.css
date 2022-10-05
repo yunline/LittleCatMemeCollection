@@ -1,10 +1,15 @@
 .cat_link{
     transition: 0.2s;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }
 .cat_link:hover{
     cursor: pointer;
     text-shadow: 0 0 0.2em #ccc;
     text-decoration: underline;
+    font-size: 2em;
     color: #444;
 }
 

@@ -82,7 +82,7 @@ else:
     logging.info("Writing \"index.json\" ···")
     with open("data/index.json","w",encoding="utf8") as index_file:
         # 写入index.json
-        json.dump(index,index_file,ensure_ascii=False,indent=4)
+        json.dump(index,index_file,ensure_ascii=False)
     logging.info("Index updated successfully. ")
 finally:
     os.system("pause")

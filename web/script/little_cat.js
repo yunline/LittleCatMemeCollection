@@ -1,3 +1,5 @@
+"use strict";
+
 function set_column_count() {//按照分辨率调整预览列数
     $("#cat_area").attr(
         "style",
@@ -11,6 +13,7 @@ function load_cat(cat_index, status) {//回调，加载猫猫
         return;
     }
 
+    var i;
     for (i in cat_index) {
         function callback_factory(i){//生成回调函数
             return (function(cat_info, status) {//回调，获得小猫信息之后，写入html
@@ -29,21 +32,22 @@ function load_cat(cat_index, status) {//回调，加载猫猫
             $("#cat_area").append(_html);
         });}
 
-        $.get(`../cats/${cat_index[i]}/info.json`, callback_factory(i))
+        $.get(`../cats/${cat_index[i]}/info.json`, callback_factory(i));
     }
 }
 
 function spawn_particle(event) {//生成粒子
+    var i;
     for (i = 0; i < 10; i += 1) {
-        var id = Math.floor(Math.random() * 10000)
+        var id = Math.floor(Math.random() * 10000);
         $("body").append(`
                 <img style="left:${event.clientX - 25}px;top:${event.clientY - 25}px" src="./img/icon.png" id="${id}" class="particle">
             `);
 
         function _factory(_id) {
             return (function () {
-                $(`#${_id}`).remove()
-            })
+                $(`#${_id}`).remove();
+            });
         }
         setTimeout(_factory(id), 2000);
 
@@ -56,7 +60,7 @@ function spawn_particle(event) {//生成粒子
         }, {
             duration: (Math.random() / 2 + 1) * 2000,
             queue: false
-        })
+        });
     }
 }
 

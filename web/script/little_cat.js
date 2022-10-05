@@ -13,8 +13,9 @@ function load_cat(cat_index, status) {//回调，加载猫猫
         return;
     }
 
-    var i;
-    for (i in cat_index) {
+    cat_index.sort((function(a, b) { return Math.random() > 0.5 ? -1 : 1; }));
+
+    for (let i in cat_index) {
         function callback_factory(i){//生成回调函数
             return (function(cat_info, status) {//回调，获得小猫信息之后，写入html
             var cat_img_path = `../cats/${cat_index[i]}/${cat_info["img"]}`;
@@ -37,8 +38,7 @@ function load_cat(cat_index, status) {//回调，加载猫猫
 }
 
 function spawn_particle(event) {//生成粒子
-    var i;
-    for (i = 0; i < 10; i += 1) {
+    for (let i = 0; i < 10; i += 1) {
         var id = Math.floor(Math.random() * 10000);
         $("body").append(`
                 <img style="left:${event.clientX - 25}px;top:${event.clientY - 25}px" src="./img/icon.png" id="${id}" class="particle">
@@ -66,9 +66,10 @@ function spawn_particle(event) {//生成粒子
 
 function on_ready() {//加载完成时调用
     set_column_count();
-    jQuery.ajaxSetup({ cache: false })
     $(window).resize(set_column_count);
+    jQuery.ajaxSetup({ cache: false })
     $.get("../data/index.json", load_cat);
+    jQuery.ajaxSetup({ cache: true });
 
     $("body").click(spawn_particle);
 }

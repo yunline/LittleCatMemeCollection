@@ -28,6 +28,7 @@ function load_cat(cat_index, status) {//回调，加载猫猫
                         target="_blank"
                         href="https://github.com/yunline/LittleCatMemeCollection/blob/main/cats/${cat_index[i]}/${cat_info["img"]}"
                     >${cat_index[i]}</a>
+                    ${cat_info["license"]==""? "":("<p>协议："+cat_info["license"])}
                     <p>作者：${cat_info["author"] == "" ? "未知" : cat_info["author"]}</p>
                     <p>简介：${cat_info["description"]}</p>
                 </div>
